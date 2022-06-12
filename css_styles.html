@@ -1,0 +1,56 @@
+<html>
+	<a href="basictags.html"><h5>previous</h5></a> <a href="imagestyle.html"><h5 style ='text-align: right;'>next</h5></a>
+	<head> <u> <strong> <h1 style ='color: green'>CSS Styles</h1> </strong></u> </head>
+	<body style = 'background-color:lightGray'>
+		<h3>CSS can be added to HTML documents in 3 ways:</h3><ol>
+   		<li> Inline - by using the style attribute inside HTML elements
+   		<li>Internal - by using a &lt;style&gt; element in the &lt;head&gt; section
+    	<li>External - by using a &lt;link&gt; element to link to an external CSS file
+		<p>The most common way to add CSS, is to keep the styles in external CSS files.</p>
+		<h3>Inline CSS</h3>
+		<p>An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.</p>
+		&lt;html&gt;<br>
+		&lt;body&gt;<br>
+		&lt;h1 style="color:blue;"&gt;A Blue Heading&lt;/h1&gt;<br>
+		&lt;p style="color:red;"&gt;A red paragraph.&lt;/p&gt;<br>
+		&lt;/body&gt;<br>
+		&lt;/htm&gt;<br>
+		<h3>Internal CSS</h3>
+		<p>An internal CSS is used to define a style for a single HTML page.An internal CSS is defined in the &lt;head&gt; section of an HTML page, within a &lt;style&gt; element.
+			&lt;html&gt;<br>
+			&lt;head&gt;<br>
+			&lt;style&gt;<br>
+			h1   {color: blue;}<br>
+			p    {color: red;}<br>
+			&lt;/style&gt;<br>
+			&lt;/head&gt;<br>
+			&lt;body&gt;<br>
+			&lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+			&lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+			&lt;/body&gt;<br>
+			&lt;/html&gt;
+		<h3>External CSS</h3>
+		<p>An external style sheet is used to define the style for many HTML pages.To use an external style sheet, add a link to it in the &lt;head&gt; section of each HTML page:
+			<br>&lt;html&gt;<br>
+			&lt;head&gt;<br>
+  			&lt;link rel="stylesheet" href="styles.css"&gt;<br>
+			&lt;/head&gt;<br>
+			&lt;body&gt;<br>
+			&lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+			&lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+			&lt;/body&gt;<br>
+			&lt;/html&gt;<br>
+			
+
+		<h4>CSS file:</h4>
+		styles.css<br>
+		h1 {<br>
+  		color: blue;<br>
+		}<br>
+		p {<br>
+		color: red;<br>
+		}
+		<h4>view of all the above ways</h1>
+		<img src='output.png' width ='300' height ='200' title ='Image tag'>
+	</body>
+</html>
